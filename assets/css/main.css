@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.box {
+    width:135px;
+    height: 100vh;
+    background-color: white;
+    margin-left: -135px;
+    display: flex;
+}
+
+
+
+.row {
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100vh;
+
+}
+
+.text{
+    width: auto;
+    margin-left: 20px;
+}
+
+.fa-bars {
+    font-size: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.fa-bars:hover {
+    transition: .5s;
+    color: dodgerblue;
+}
+
+.pech{
+    width: 290px;
+}
+
+.fa-fire,
+.fa-compass,
+.fa-house,
+.fa-pen-nib,
+.fa-school,
+.fa-burger,
+.fa-box-archive,
+.fa-leaf {
+    width: 100px;
+    color: white;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    transition: .5s;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.fa-fire:hover,
+.fa-compass:hover,
+.fa-house:hover,
+.fa-pen-nib:hover,
+.fa-school:hover,
+.fa-burger:hover,
+.fa-box-archive:hover,
+.fa-leaf:hover {
+    width: 100%;
+    transition: .5s;
+    border-left: 3px solid white;
+    background-color: rgb(90, 90, 160);
+    color: transparent;
+}
+
+.fa-x {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fa-x:hover{
+    transition: .5s;
+    color: dodgerblue;
+}
+
+.pech {
+    font-size: 24px;
+    margin-left: 20px;
+}
